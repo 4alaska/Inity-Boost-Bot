@@ -9,7 +9,7 @@ Boost bot & API entièrement développé par **4alaska**. Si vous souhaitez du s
 
 - 💎 Boostez rapidement les serveurs Discord
 - 📌 Prend en charge les T0K3NS de 1 mois et 3 mois
-- 🔮 Filigrane de T0K3N (bio et surnom pour l'instant)
+- 🔮 WaterMark des T0K3N (bio et surnom pour l'instant)
 - 🚀 Personnalisation complète du bot
 - 💻 Bot de boost open source – communique directement avec l'API pour une flexibilité maximale !
 - 🔑 Intégration avec les API SELLIX, SELLAUTH et SELLPASS (bientôt disponible)
