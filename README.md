@@ -1,4 +1,4 @@
-# INITY SERVICES BOT API
+# INITY BOOST BOT API
 
 ## Information
 
