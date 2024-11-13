@@ -1,0 +1,19 @@
+{
+    "bot": {
+        "token": "",
+        "client_id": "",
+        "admin": [""], 
+        "status": {
+            "activite": "",
+            "type": "STREAMING",
+            "url": "https://www.twitch.tv/4alaska"
+        },
+        "apikey": ""
+    },
+    "emoji": {
+        "main": "<:inityservices:1282301988033527881>"
+    },
+    "embed": {
+        "color": "#e25ae4"
+    }
+}
