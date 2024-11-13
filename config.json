@@ -11,7 +11,8 @@
         "apikey": ""
     },
     "emoji": {
-        "main": "<:inityservices:1282301988033527881>"
+        "main": "<:inityservices:1282301988033527881>",
+        "bad": "🛑"
     },
     "embed": {
         "color": "#e25ae4"
