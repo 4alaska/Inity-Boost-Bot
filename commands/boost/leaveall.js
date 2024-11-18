@@ -8,7 +8,11 @@ let totalLeft = 0;
 module.exports = {
     data: new SlashCommandBuilder()
         .setName('leaveall')
-        .setDescription('Fait quitter le bot de tous les serveurs sauf celui où la commande est exécutée.'),
+        .setDescription('Fait quitter le bot de tous les serveurs sauf celui où la commande est exécutée.')
+
+    .setDefaultMemberPermissions(PermissionFlagsBits.Administrator),
+
+    devOnly: true,
     run: async (client, interaction) => {
         try {
            
