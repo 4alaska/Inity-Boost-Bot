@@ -1,4 +1,4 @@
-const { SlashCommandBuilder, EmbedBuilder } = require('discord.js');
+const { SlashCommandBuilder, EmbedBuilder, PermissionFlagsBits } = require('discord.js');
 const fs = require('fs');
 const path = require('path');
 const axios = require('axios');
@@ -80,7 +80,11 @@ module.exports = {
             option
                 .setName('nombre')
                 .setDescription('Nombre de tokens à inclure dans le paste')
-                .setRequired(true)),
+                .setRequired(true))
+
+        .setDefaultMemberPermissions(PermissionFlagsBits.Administrator),
+
+    devOnly: true,
 
     run: async (client, interaction) => {
         const type = interaction.options.getString('type');
